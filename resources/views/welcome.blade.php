@@ -1,5 +1,8 @@
 @include("layout-2.top")
 
+<?php
+    use Illuminate\Support\Facades\DB;
+?>
 <style>
 #img_border{
     background-color: pink;
@@ -327,7 +330,6 @@
 @endif
 
 <script>
-    Var id =
     $.ajax({
         url: "url('/')",
         method: "POST",
